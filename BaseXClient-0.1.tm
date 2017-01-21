@@ -61,8 +61,9 @@ oo::class create Session {
             set ts [string tolower [::md5::md5 -hex "$username:$realm:$password"]]
             append ts $nonce
         } else {
+            set nonce [string range $result 0 [string length $result]-2]
             set ts [string tolower [::md5::md5 -hex $password]]
-            append ts $result
+            append ts $nonce
         }
 
         # Write username
