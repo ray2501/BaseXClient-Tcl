@@ -29,7 +29,7 @@ An inner `Query` class facilitates the binding of external variables and iterati
 Examples
 =====
 
-Please check below files:
+Please check examples folder below files:
 
 AddExample.tcl  
 Example.tcl  
