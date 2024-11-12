@@ -6,7 +6,7 @@
 #
 #
 
-package require Tcl 8.6
+package require Tcl 8.6-
 package require TclOO
 package require md5
 
@@ -47,7 +47,7 @@ oo::class create Session {
         if {[catch {set channel [socket $host $port]}]} {
             return -code 1
         }
-        fconfigure $channel -blocking 0 -buffering none -encoding binary \
+        fconfigure $channel -blocking 0 -buffering none -encoding iso8859-1 \
             -translation binary
 
         fileevent $channel readable "[self] checkread"
