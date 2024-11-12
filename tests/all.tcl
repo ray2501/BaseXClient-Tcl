@@ -1,4 +1,4 @@
-package require Tcl 8.6
+package require Tcl 8.6-
 package require tcltest 2.2
 
 tcl::tm::path add [file join [file dirname [info script]] .. ]
