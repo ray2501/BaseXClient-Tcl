@@ -1,6 +1,6 @@
 #
 # Tcl client for BaseX database.
-# Works with BaseX 7.0 and later
+# Works with BaseX 7.0 - 12.x
 #
 # (C) Danilo Chang 2017, MIT License
 #
