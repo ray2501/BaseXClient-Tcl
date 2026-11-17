@@ -11,7 +11,7 @@ The library consists of a single
 communicates with a BaseX database
 by using the [BaseX Server Protocol](https://docs.basex.org/wiki/Server_Protocol).
 
-This library requires Tcllib md5 package.
+This library requires Tcllib md5 package (or Tcllib sha256 package for v0.2).
 
 License
 =====
